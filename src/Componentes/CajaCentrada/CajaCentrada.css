@@ -1,0 +1,9 @@
+.TodoCreateDiv {
+    width: 50%;
+    background-color: green; /* Aquí se ajusta la opacidad del fondo */
+    margin: auto;
+    border-radius: 10px;
+    vertical-align: top;
+    text-align: left;
+    height: 500px;
+  }
