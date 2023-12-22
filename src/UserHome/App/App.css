@@ -39,3 +39,10 @@ body{
     transform: rotate(360deg);
   }
 }
+
+a{
+  font-size: x-large;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  vertical-align: middle;
+}

@@ -15,7 +15,8 @@ position: fixed;
 width: 100%;
 top: 0;
 left: 0;
-border-color: white;
+border-bottom: 1px double gray;
+
 }
 
 .nav {
@@ -110,7 +111,7 @@ cursor: pointer;
 display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     body {
         padding-top: 70px;
       }

@@ -6,7 +6,7 @@ function Titulos({param}) {
         content=<h1 className='TituloPrincipal'>Bienvenido estudiante</h1>;
     }
     if(param===2){
-        content=<h1 className='TituloPrincipal2'>Aqui va a ir texto de cada mini seccion</h1>;
+        content=<h1 className='TituloPrincipal2'>MIS EXPERIENCIAS</h1>;
     }
   return (
     content
