@@ -46,3 +46,10 @@ a{
   font-weight: normal;
   vertical-align: middle;
 }
+
+.links-laterales:hover{
+  color: white;
+  background-color: blueviolet;
+  padding: 5px 20px;
+  border-radius: 20px;
+}

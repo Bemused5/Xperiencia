@@ -1,0 +1,6 @@
+.sticky-parent {
+    position: sticky;
+    top: -10; /* Adjust as needed */
+    right: 0;
+    z-index: 5; /* Lower than the header, higher than the main content */
+  }

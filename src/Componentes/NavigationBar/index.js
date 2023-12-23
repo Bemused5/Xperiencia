@@ -43,18 +43,25 @@ function NavigationBar(){
          
         <ul className={navMenuClasses}>
           {/*
-          <li className="nav-menu-item">
-              <Link to="/" className="nav-menu-link nav-link">DESCUBRIR</Link>
-          </li>
-          <li className="nav-menu-item">
-            <Link to="/experiences" className="nav-menu-link nav-link">Mis Xperiencias</Link>
-          </li>
-          <li className="nav-menu-item">
-              <Link to="/profile" className="nav-menu-link nav-link">MI PERFIL</Link>
-          </li>
+          
           */}
           <li className="nav-menu-item-user">
             <FontAwesomeIcon icon={faUser} />
+          </li>
+          <li className="nav-menu-item">
+              <Link to="/" className="nav-menu-link nav-link">Mi Perfil</Link>
+          </li>
+          <li className="nav-menu-item">
+              <Link to="/" className="nav-menu-link nav-link">Mis Xperiencias</Link>
+          </li>
+          <li className="nav-menu-item">
+            <Link to="/experiences" className="nav-menu-link nav-link">Mejorar mi perfil</Link>
+          </li>
+          <li className="nav-menu-item">
+              <Link to="/profile" className="nav-menu-link nav-link">Vacantes</Link>
+          </li>
+          <li className="nav-menu-item">
+              <Link to="/profile" className="nav-menu-link nav-link">Futuras Xperiencias</Link>
           </li>
         </ul>
         

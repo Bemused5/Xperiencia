@@ -16,7 +16,7 @@ width: 100%;
 top: 0;
 left: 0;
 border-bottom: 1px double gray;
-
+z-index: 1000;
 }
 
 .nav {
@@ -26,7 +26,7 @@ margin: 0 auto;
 }
 
 .nav-link {
-color: darkgray;
+color: black;
 text-decoration: none;
 }
 .fa-bars{
@@ -44,7 +44,7 @@ line-height: 80px;
 }
 
 .X {
-    color: blue; /* Elige el color que prefieras para 'Agave' */
+    color: blueviolet; /* Elige el color que prefieras para 'Agave' */
 }
 
 .periencia {
@@ -62,6 +62,7 @@ list-style: none;
     padding-left: 0px;
 }
 .nav-menu-item {
+display: none;
 font-size:smaller;
 font-weight: bold;
 margin: 0 10px;
@@ -86,6 +87,13 @@ width: max-content;
   overflow: hidden; /* Esto asegura que nada se desborde del círculo */
   background-color: white; /* Cambia al color de fondo que prefieras */
 }
+
+/* Añade esto para el efecto de hover */
+.nav-menu-item-user:hover {
+  background-color: lightgrey; /* Cambia al tono de gris que prefieras al hacer hover */
+  border: 2px solid lightgray; /* Ajusta el color y el grosor del borde como prefieras */
+}
+
 
 .nav-menu-link {
 padding: 8px 12px;
@@ -130,7 +138,7 @@ display: none;
         flex-direction: column;
         align-items: center;
         margin: 0;
-        background-color: #2c3e50;
+        background-color: white;
         position: fixed;
         top: 60px;
         width: 100%;
@@ -144,13 +152,17 @@ display: none;
       }
     
       .nav-menu-item {
+        display: inline;
         line-height: 70px;
+      }
+      .nav-menu-item-user {
+        display: none;
       }
     
       .nav-menu-link:hover,
       .nav-menu-link_active {
         background: none;
-        color: #83c5f7;
+        color: blueviolet;
       }
     
       .nav-toggle {

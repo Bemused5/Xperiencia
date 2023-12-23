@@ -20,7 +20,7 @@ function BotonCambioDePantalla({param}) {
       navigate('/profile'); // Navega a la ruta /UserHome
     }
     if (param === 5) {
-      navigate('/UserHome'); // Navega a la ruta /UserHome
+      navigate('/MisXperiencias'); // Navega a la ruta /UserHome
     }
   };
   const content = {
