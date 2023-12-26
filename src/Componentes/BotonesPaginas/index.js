@@ -1,8 +1,8 @@
 import React from 'react'
-import './BotonCambioDePantalla.css';
+import './BotonesPaginas.css';
 import { useNavigate } from 'react-router-dom'; // Importa el hook useNavigate
 
-function BotonCambioDePantalla({param}) {
+function BotonesPaginas({param}) {
 
   const navigate = useNavigate(); // Inicializa el hook
    // Esta función manejará el click en el botón
@@ -17,15 +17,15 @@ function BotonCambioDePantalla({param}) {
 
   };
   const content = {
-    5: <p className='TextBotones'>Login</p>,
+    5: <p className='TextBotones'>+ Vacantes</p>,
   }[param] || <p className='TextBotones'>Botón Default</p>; // Default si no se proporciona parámetro
   return (
     <div className='centeredContainer'>
         <button 
         onClick={handleClick}
-        className='BotonSeleccion'>{content}</button>
+        className='Boton'>{content}</button>
     </div>
   )
 }
 
-export {BotonCambioDePantalla}
+export {BotonesPaginas}

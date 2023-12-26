@@ -6,7 +6,6 @@ import { SectionIzquierdaXperiencias } from '../../../Componentes/SectionIzquier
 import { AsideDerecha } from '../../../Componentes/AsideDerecha';
 import { Xperiencia } from '../../../Componentes/XPeriencia';
 import { DivisionXperiencias } from '../../../Componentes/DivisionXperiencias';
-import { StickyParent } from '../../../Componentes/StickyParent';
 import { useNavigate } from 'react-router-dom'; // Importa el hook useNavigate
 
 function MisXperiencias() {

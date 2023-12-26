@@ -1,0 +1,33 @@
+/* AsideDerecha.css */
+.EstiloSeccionLateralIzq {
+    position: absolute;
+    z-index: 10;
+    /* Utiliza la variable CSS para la propiedad 'top' */
+    top: var(--top-position, 150px); /* Valor por defecto de 20px */
+    margin-left: 50px;
+    left: 0;
+    height: 70%;
+    width: 20%;
+    background-color: lightgrey;
+    border: 0.5px solid lightgrey;
+    border-radius: 60px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    align-items: center;
+  }
+.AsideDerecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* This ensures the flex container takes full height */
+    /* Other styles remain unchanged */
+}
+@media (max-width: 1024px) {
+    .EstiloSeccionLateral{
+        display: none;
+    }
+}

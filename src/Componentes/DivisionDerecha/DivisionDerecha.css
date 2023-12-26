@@ -1,0 +1,10 @@
+.EstiloDivisionDerecha{
+    margin: auto;
+    width: 90%;
+    gap: 1rem;
+    text-align: center;
+    background-color: lightgrey;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 50px;
+}

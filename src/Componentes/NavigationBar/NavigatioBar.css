@@ -44,7 +44,7 @@ line-height: 80px;
 }
 
 .X {
-    color: blueviolet; /* Elige el color que prefieras para 'Agave' */
+    color: #414BB2; /* Elige el color que prefieras para 'Agave' */
 }
 
 .periencia {
@@ -162,7 +162,7 @@ display: none;
       .nav-menu-link:hover,
       .nav-menu-link_active {
         background: none;
-        color: blueviolet;
+        color: #414BB2;
       }
     
       .nav-toggle {

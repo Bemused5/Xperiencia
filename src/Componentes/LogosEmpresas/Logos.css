@@ -1,0 +1,20 @@
+.ImagenesLogos{
+    width: 10%;
+    border-radius: 200px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background-color: white;
+}
+
+@media (max-width: 1024px) {
+    .ImagenesLogos{
+        width: 25%;
+    }
+}
+@media (max-width: 768px) {
+    .ImagenesLogos{
+        width: 40%;
+    }
+}

@@ -1,0 +1,16 @@
+.EstiloSeccionDerecha{
+    background-color: none;
+    margin-left: 30%;
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    vertical-align: top;
+    text-align: left;
+    height: auto; 
+}
+@media (max-width: 1024px) {
+    .EstiloSeccionXperiencias{
+        width: 100%;
+    }
+}
