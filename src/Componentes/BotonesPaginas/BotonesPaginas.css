@@ -22,6 +22,11 @@
     font-weight: bold;
 }
 
+@media (max-width: 1024px) {
+    .TextBotones{
+        font-size: medium;
+    }
+}
 @media (max-width: 768px) {
     .BotonSeleccion{
         width: 200px;

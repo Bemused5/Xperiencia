@@ -17,14 +17,13 @@ function BotonCambioDePantalla({param}) {
 
   };
   const content = {
-    5: <p className='TextBotones'>Login</p>,
-  }[param] || <p className='TextBotones'>Botón Default</p>; // Default si no se proporciona parámetro
+    5: <p className='TextBotonLogin'>Login</p>,
+  }[param] || <p className='TextBotonLogin'>Botón Default</p>; // Default si no se proporciona parámetro
   return (
-    <div className='centeredContainer'>
+ 
         <button 
         onClick={handleClick}
         className='BotonSeleccion'>{content}</button>
-    </div>
   )
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Inputs.css'
 function Inputs() {
   const [createValue, setCreateValue] = React.
   useState('');
@@ -7,7 +7,7 @@ function Inputs() {
   return (
     
     <input 
-      placeholder="Hacer la maleta" 
+      placeholder="alumno@tec.com.mx" 
       className='SearchTask2'
       value={createValue}
       onChange={(event)=>{

@@ -14,6 +14,9 @@ function Titulos({param}) {
     if(param===4){
       content=<h1 className='TituloLateralIzq'>Mis Vacantes</h1>;
     }
+    if(param===5){
+      content=<h1 className='TituloLateralIzq'>Bienvenido</h1>;
+    }
   return (
     content
   )

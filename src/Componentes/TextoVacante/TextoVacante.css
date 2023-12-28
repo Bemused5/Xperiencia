@@ -11,8 +11,27 @@
 .TextoVacanteUb{
   font-size: large;
   text-align: center;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
   color: black;
 }
+
+@media (max-width: 1024px) {
+  .TextoVacante{
+    font-size: x-large;
+  }
+  .TextoVacanteUb{
+    font-size: medium;
+  }
+}
+
+@media (max-width: 768px) {
+  .TextoVacante{
+    font-size: large;
+  }
+  .TextoVacanteUb{
+    font-size: small;
+  }
+}
+
 

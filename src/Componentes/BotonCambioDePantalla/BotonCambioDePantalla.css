@@ -1,10 +1,12 @@
 .BotonSeleccion{
     height: auto;
-    width: 250px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 20px;
-    background-color: white;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25%;
+    padding-left: 25%;
+    border-radius: 13px;
+    background-color: #4d59da;
     border-color: none;
     transition: .3s ease;
 
@@ -14,11 +16,11 @@
     padding-bottom: 20px;
 }
 .BotonSeleccion:hover{
-    background-color: lightskyblue;
+    background-color: #414BB2;
 }
-.TextBotones{
-    color: black;
-    font-size: large;
+.TextBotonLogin{
+    color: white;
+    font-size: x-large;
     font-weight: bold;
 }
 

@@ -7,17 +7,39 @@
 }
 
 .TituloPrincipal2{
-    font-size: xx-large;
-    text-align: center;
-    margin: 0;
-    padding: 30px;
-    color: black;
-  }
+  font-size: xx-large;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+  color: black;
+}
 
+.TituloLateralIzq{
+  font-size: xx-large;
+  text-align: left;
+  margin: 0;
+  padding: 30px;
+  color: black;
+}
+
+@media (max-width: 1024px) {
   .TituloLateralIzq{
-    font-size: xx-large;
+    font-size: large;
     text-align: left;
     margin: 0;
     padding: 30px;
     color: black;
   }
+  .TextoVacanteUb{
+    font-size: medium;
+  }
+}
+
+@media (max-width: 768px) {
+  .TextoVacante{
+    font-size: large;
+  }
+  .TextoVacanteUb{
+    font-size: small;
+  }
+}

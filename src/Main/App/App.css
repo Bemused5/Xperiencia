@@ -31,6 +31,10 @@ body{
 .App-link {
   color: #97ca3f;
 }
+.EscuelaMain{
+  width: 50%;
+
+}
 
 @keyframes App-logo-spin {
   from {

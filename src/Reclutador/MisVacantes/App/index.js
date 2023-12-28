@@ -2,7 +2,7 @@ import './App.css';
 import { NavigationBar } from '../../../Componentes/NavigationBar';
 import {Main} from '../../../Componentes/Main';
 import {Titulos} from '../../../Componentes/Titulos';
-import { SectionDerecha } from '../../../Componentes/SectionDerecha';
+import { SectionCentrada } from '../../../Componentes/SectionCentrada';
 import { AsideIzquierda } from '../../../Componentes/AsideIzquierda';
 import { Xperiencia } from '../../../Componentes/XPeriencia';
 import { DivisionXperiencias } from '../../../Componentes/DivisionXperiencias';
@@ -15,6 +15,7 @@ import { TextoVacante } from '../../../Componentes/TextoVacante';
 import { DivisionVacante } from '../../../Componentes/DivisionVacante';
 import { DivisionFlexUbicacionYTiempo } from '../../../Componentes/DivisionFlexUbicacionYTiempo';
 import { DivisionFlexVertical } from '../../../Componentes/DivisionFlexVertical';
+import { ImgEstudiantes } from '../../../Componentes/ImgEstudiantes';
 
 function MisVacantes() {
   
@@ -40,11 +41,12 @@ function MisVacantes() {
     <>
         <NavigationBar/>
         <Main param={2}>
+          {/** 
           <AsideIzquierda>
             <Titulos param={3}/>
 
             <DivisionVacante>
-              <LogosEmpresas param={1}/>
+              <ImgEstudiantes param={3}/>
               <DivisionFlexVertical>
                 <TextoVacante param={1}/>
                 <DivisionFlexUbicacionYTiempo>
@@ -55,7 +57,18 @@ function MisVacantes() {
             </DivisionVacante>
 
             <DivisionVacante>
-              <LogosEmpresas param={1}/>
+              <ImgEstudiantes param={1}/>
+              <DivisionFlexVertical>
+                <TextoVacante param={1}/>
+                <DivisionFlexUbicacionYTiempo>
+                  <TextoVacante param={5}/>
+                  <TextoVacante param={7}/>
+                </DivisionFlexUbicacionYTiempo>
+              </DivisionFlexVertical>
+            </DivisionVacante>
+
+            <DivisionVacante>
+              <ImgEstudiantes param={2}/>
               <DivisionFlexVertical>
                 <TextoVacante param={1}/>
                 <DivisionFlexUbicacionYTiempo>
@@ -66,8 +79,10 @@ function MisVacantes() {
             </DivisionVacante>
 
           </AsideIzquierda>
-          
-          <SectionDerecha>
+
+          */}
+
+          <SectionCentrada>
               <DivisionDerecha>
                 <DivisionFlexHorizontal>
                   <Titulos param={4}/>
@@ -119,7 +134,7 @@ function MisVacantes() {
                 </DivisionVacante>
 
               </DivisionDerecha>
-          </SectionDerecha>
+          </SectionCentrada>
           
         </Main>
     </>

@@ -1,6 +1,7 @@
-.EstiloSeccionDerecha{
+.EstiloSeccionCentrada{
     background-color: none;
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
     margin-top: auto;
     margin-bottom: auto;
@@ -10,7 +11,13 @@
     height: auto; 
 }
 @media (max-width: 1024px) {
-    .EstiloSeccionXperiencias{
-        width: 100%;
+    .EstiloSeccionCentrada{
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    .EstiloSeccionCentrada{
+        width: 90%;
     }
 }

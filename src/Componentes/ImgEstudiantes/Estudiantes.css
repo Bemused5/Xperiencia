@@ -1,4 +1,4 @@
-.ImagenesLogos{
+.ImagenesEstudiantes{
     width: 10%;
     border-radius: 200px;
     margin-left: 1rem;
@@ -9,12 +9,12 @@
 }
 
 @media (max-width: 1024px) {
-    .ImagenesLogos{
-        width: 13%;
+    .ImagenesEstudiantes{
+        width: 25%;
     }
 }
 @media (max-width: 768px) {
-    .ImagenesLogos{
-        width: 20%;
+    .ImagenesEstudiantes{
+        width: 40%;
     }
 }

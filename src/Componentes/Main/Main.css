@@ -1,6 +1,5 @@
 .CenteredContainerMain{
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
-    
+    padding-top: 10px;
 }

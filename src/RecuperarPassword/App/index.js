@@ -3,6 +3,7 @@ import React from 'react';
 import { FormulariosLlenado } from '../../Componentes/FormulariosLlenado';
 import { SubtitulosLogin } from '../../Componentes/Subtitulos/SubtitulosLogin';
 import { Inputs } from '../../Componentes/Inputs';
+import { Main } from '../../Componentes/Main';
 import { Titulos } from '../../Componentes/Titulos';
 import { CajaCentrada } from '../../Componentes/CajaCentrada';
 import { BotonCambioDePantalla } from '../../Componentes/BotonCambioDePantalla';
@@ -15,10 +16,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { CajaCentradaFlexVertical } from '../../Componentes/CajaCentradaFlexVertical';
 import { XperienciaPreview } from '../../Componentes/XPerienciaPreview';
 import TecDeMty from '../../Media/TECDeMTy.png'
-import { Main } from '../../Componentes/Main';
 
-
-function TodoMainPrincipal() {
+function RecuperarPassword() {
   const navigate = useNavigate(); // Inicializa el hook
 
   // Configuración para el carrusel
@@ -57,7 +56,10 @@ function TodoMainPrincipal() {
               <XperienciaPreview param={3}/>
               <XperienciaPreview param={4}/>
               <XperienciaPreview param={5}/>
-              <XperienciaPreview param={6}/>      
+              <XperienciaPreview param={6}/>
+
+    
+             
           </Slider>
           */}
           
@@ -83,4 +85,4 @@ function TodoMainPrincipal() {
   );
 }
 
-export { TodoMainPrincipal };
+export default RecuperarPassword ;

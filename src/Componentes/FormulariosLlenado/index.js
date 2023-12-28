@@ -1,8 +1,8 @@
 import React from 'react'
-
+import'./FormulariosLlenado.css'
 function FormulariosLlenado({children}) {
   return (
-    <div className='TodoFormDiv'>
+    <div className='DivForget'>
         {children}
     </div>
   )

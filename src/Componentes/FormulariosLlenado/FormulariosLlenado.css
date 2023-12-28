@@ -1,0 +1,12 @@
+/* AsideDerecha.css */
+.DivForget {
+    height: 70%;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
