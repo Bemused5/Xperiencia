@@ -7,3 +7,14 @@
     text-align: left;
     height: auto;
   }
+
+@media (max-width: 1024px) {
+  .TodoCreateDiv{
+      width: 70%;
+  }
+}
+@media (max-width: 768px) {
+    .TodoCreateDiv{
+        width: 95%;
+    }
+}

@@ -16,6 +16,7 @@ import { CajaCentradaFlexVertical } from '../../Componentes/CajaCentradaFlexVert
 import { XperienciaPreview } from '../../Componentes/XPerienciaPreview';
 import TecDeMty from '../../Media/TECDeMTy.png'
 import { Main } from '../../Componentes/Main';
+import { NavigationBarPrincipal } from '../../Componentes/NavigationBarPrincipal';
 
 
 function TodoMainPrincipal() {
@@ -49,6 +50,7 @@ function TodoMainPrincipal() {
     <>
 
       <Main>
+        <NavigationBarPrincipal/>
         <CajaCentradaFlexVertical>
           {/* 
           <Slider {...settings}>
@@ -70,9 +72,9 @@ function TodoMainPrincipal() {
 
             <FormulariosLlenado>
               <SubtitulosLogin param={1}/>
-              <Inputs/>
+              <Inputs param={1}/>
               <SubtitulosLogin param={2}/>
-              <Inputs/>
+              <Inputs param={2}/>
               <BotonCambioDePantalla param={5}/>
               <a className='links-laterales' onClick={() => handleClick(1)}>¿Olvidaste la contraseña?</a>
             </FormulariosLlenado>

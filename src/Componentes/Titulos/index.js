@@ -17,6 +17,9 @@ function Titulos({param}) {
     if(param===5){
       content=<h1 className='TituloLateralIzq'>Bienvenido</h1>;
     }
+    if(param===6){
+      content=<h1 className='TituloPrincipal2'>Ingresa tu correo donde te mandaremos un correo para reestablecer la contraseña</h1>;
+    }
   return (
     content
   )

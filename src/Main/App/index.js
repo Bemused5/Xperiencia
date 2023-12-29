@@ -10,14 +10,12 @@ function App() {
   return (
     <>
       <Router>
-        <NavigationBar/>
         <Routes>
           <Route path="/" element={<TodoMainPrincipal />} />
           <Route path="/MisXperiencias" element={<MisXperiencias />} />
           <Route path="/MisVacantes" element={<MisVacantes />} />
           <Route path="/RecuperarPassword" element={<RecuperarPassword />} />
         </Routes>
-        
       </Router>
     </>
   );

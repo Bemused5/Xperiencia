@@ -3,7 +3,6 @@ import React from 'react';
 import { FormulariosLlenado } from '../../Componentes/FormulariosLlenado';
 import { SubtitulosLogin } from '../../Componentes/Subtitulos/SubtitulosLogin';
 import { Inputs } from '../../Componentes/Inputs';
-import { Main } from '../../Componentes/Main';
 import { Titulos } from '../../Componentes/Titulos';
 import { CajaCentrada } from '../../Componentes/CajaCentrada';
 import { BotonCambioDePantalla } from '../../Componentes/BotonCambioDePantalla';
@@ -16,6 +15,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { CajaCentradaFlexVertical } from '../../Componentes/CajaCentradaFlexVertical';
 import { XperienciaPreview } from '../../Componentes/XPerienciaPreview';
 import TecDeMty from '../../Media/TECDeMTy.png'
+import { Main } from '../../Componentes/Main';
+import { NavigationBarPrincipal } from '../../Componentes/NavigationBarPrincipal';
+
 
 function RecuperarPassword() {
   const navigate = useNavigate(); // Inicializa el hook
@@ -48,6 +50,7 @@ function RecuperarPassword() {
     <>
 
       <Main>
+        <NavigationBarPrincipal/>
         <CajaCentradaFlexVertical>
           {/* 
           <Slider {...settings}>
@@ -56,10 +59,7 @@ function RecuperarPassword() {
               <XperienciaPreview param={3}/>
               <XperienciaPreview param={4}/>
               <XperienciaPreview param={5}/>
-              <XperienciaPreview param={6}/>
-
-    
-             
+              <XperienciaPreview param={6}/>      
           </Slider>
           */}
           
@@ -68,15 +68,12 @@ function RecuperarPassword() {
             <FormulariosLlenado>
             <img src={TecDeMty} alt="Imagen de la escuela" className='EscuelaMain'/>
             </FormulariosLlenado>
-            <Titulos param={5}/>
+            <Titulos param={6}/>
 
             <FormulariosLlenado>
               <SubtitulosLogin param={1}/>
               <Inputs/>
-              <SubtitulosLogin param={2}/>
-              <Inputs/>
-              <BotonCambioDePantalla param={5}/>
-              <a className='links-laterales' onClick={() => handleClick(1)}>¿Olvidaste la contraseña?</a>
+              <BotonCambioDePantalla param={6}/>
             </FormulariosLlenado>
           </CajaCentrada>
         </CajaCentradaFlexVertical>

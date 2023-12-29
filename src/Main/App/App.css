@@ -44,3 +44,20 @@ body{
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 1024px) {
+  .EscuelaMain{
+      width: 60%;
+  }
+  
+}
+@media (max-width: 768px) {
+  .EscuelaMain{
+      width: 90%;
+  }
+  .links-laterales{
+    font-size:larger;
+  }
+}
+
+

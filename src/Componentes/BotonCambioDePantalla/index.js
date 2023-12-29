@@ -14,10 +14,13 @@ function BotonCambioDePantalla({param}) {
     if (param === 5) {
       navigate('/MisXperiencias'); // Navega a la ruta /UserHome
     }
-
+    if (param === 6) {
+      navigate('/'); // Navega a la ruta /UserHome
+    }
   };
   const content = {
     5: <p className='TextBotonLogin'>Login</p>,
+    6: <p className='TextBotonLogin'>Enviar</p>,
   }[param] || <p className='TextBotonLogin'>Botón Default</p>; // Default si no se proporciona parámetro
   return (
  
