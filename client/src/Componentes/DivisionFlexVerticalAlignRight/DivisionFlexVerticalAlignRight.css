@@ -1,0 +1,14 @@
+.EstiloDivisionFlexVerticalAlignRight {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between; /* Adds space between elements */
+    align-items: left; /* Vertically centers elements */
+}
+.EstiloDivisionFlexVerticalAlignRight button {
+    flex: 0 0 auto; /* Prevents the button from growing */
+    padding: 5px 10px; /* Reduces button size */
+    /* Add more button styling as needed */
+    width: 100%;
+}

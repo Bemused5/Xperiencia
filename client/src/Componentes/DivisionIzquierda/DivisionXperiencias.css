@@ -1,0 +1,20 @@
+.EstiloDivisionIzquierda{
+    margin-left: auto;
+    margin-right: 30px;
+    width: 70%;
+    gap: 1rem;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center; /* Esta línea centrará los elementos hijos */
+    padding-top: 50px;
+}
+.EstiloDivisionIzquierdaFoto{
+    margin-left: auto;
+    margin-right: 30px;
+    width: 70%;
+    gap: 1rem;
+    text-align: right;
+    flex-direction: row;
+    justify-content: center; /* Esta línea centrará los elementos hijos */
+    padding-top: 50px;
+}

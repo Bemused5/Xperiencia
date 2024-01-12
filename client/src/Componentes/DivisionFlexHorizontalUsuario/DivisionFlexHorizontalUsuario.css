@@ -1,0 +1,14 @@
+.EstiloDivisionFlexHorizontalUsuario {
+    display: flex;
+    flex-direction: row;
+    width: 82%;
+    margin: auto;
+    justify-content: space-between; /* Adds space between elements */
+    align-items: flex-start; /* Vertically centers elements */
+}
+.EstiloDivisionFlexHorizontalUsuario button {
+    flex: 0 0 auto; /* Prevents the button from growing */
+    padding: 5px 10px; /* Reduces button size */
+    /* Add more button styling as needed */
+
+}

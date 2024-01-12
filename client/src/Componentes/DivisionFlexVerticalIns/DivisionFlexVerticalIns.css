@@ -1,0 +1,7 @@
+.EstiloDivisionFlexVerticalIns {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 26%;
+    align-items: center;
+}
