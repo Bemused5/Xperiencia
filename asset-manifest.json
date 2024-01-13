@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/xperiencia/static/css/main.9d16bfb1.css",
+    "main.js": "/xperiencia/static/js/main.4feda7d3.js",
+    "static/media/POAP4.gif": "/xperiencia/static/media/POAP4.21dfc1389e1d2840a816.gif",
+    "static/media/POAP.png": "/xperiencia/static/media/POAP.4db2376d590fa805fa3e.png",
+    "static/media/POAP8.png": "/xperiencia/static/media/POAP8.aaae5cf3dd27cbc550b5.png",
+    "static/media/POAP5.png": "/xperiencia/static/media/POAP5.5c1c84e82f27ab48bae7.png",
+    "static/media/POAP11.png": "/xperiencia/static/media/POAP11.a8bdcaafdbc1dfa5bfc8.png",
+    "static/media/POAP2.png": "/xperiencia/static/media/POAP2.162dd43bdb1f0f9e0e38.png",
+    "static/media/POAP10.png": "/xperiencia/static/media/POAP10.a7f0c6f7c327bb37d410.png",
+    "static/media/POAP6.png": "/xperiencia/static/media/POAP6.d7bd86a02caf383fc0e6.png",
+    "static/media/POAP9.png": "/xperiencia/static/media/POAP9.8c29e2b6808a2cad0728.png",
+    "static/media/POAP3.png": "/xperiencia/static/media/POAP3.9159101cb1d90bf5d546.png",
+    "static/media/POAP7.png": "/xperiencia/static/media/POAP7.fdb2633165e7d9300d85.png",
+    "static/media/OpenSans-Bold.ttf": "/xperiencia/static/media/OpenSans-Bold.c790f99966352c531503.ttf",
+    "static/media/OpenSans-Regular.ttf": "/xperiencia/static/media/OpenSans-Regular.b8cc747a58ffa52b7ff9.ttf",
+    "static/media/Mau.jpeg": "/xperiencia/static/media/Mau.57d670d4db033404db29.jpeg",
+    "static/media/BMWLogo.png": "/xperiencia/static/media/BMWLogo.1b6cefbf89833fe0d4f9.png",
+    "static/media/Pato.jpeg": "/xperiencia/static/media/Pato.91322f7a3ad676934da4.jpeg",
+    "static/media/Teslalogo.png": "/xperiencia/static/media/Teslalogo.a7f4d496b3479a3231bc.png",
+    "static/media/Memo.jpeg": "/xperiencia/static/media/Memo.d626eb75755dae1a8376.jpeg",
+    "static/media/AppleLogo.png": "/xperiencia/static/media/AppleLogo.c0c1cb5845c652743e5e.png",
+    "static/media/slick.svg": "/xperiencia/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/xperiencia/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/xperiencia/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/xperiencia/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/xperiencia/index.html",
+    "main.9d16bfb1.css.map": "/xperiencia/static/css/main.9d16bfb1.css.map",
+    "main.4feda7d3.js.map": "/xperiencia/static/js/main.4feda7d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d16bfb1.css",
+    "static/js/main.4feda7d3.js"
+  ]
+}
